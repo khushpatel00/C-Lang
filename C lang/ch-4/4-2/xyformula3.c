@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 
- main() {
+main() {
 
 	long int x,y,ans;
 	char ch;
@@ -11,7 +11,7 @@
 	scanf("%d",x);
 	printf("\nEnter second number : ");
 	scanf("%d",y);
-	ans = (x*x) - 2*x*y + (y*y);
+    ans = (a*a*a) + (b*b*b) + 3*a*b*(a+b);
 	printf("the value after applying the formula is : %d",ans);
 	getch();
 }
