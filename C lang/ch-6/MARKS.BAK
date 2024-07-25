@@ -1,41 +1,42 @@
 #include <stdio.h>
 #include <conio.h>
 main(){
-    int math, eng, sc, ans;
+    float math, eng, sc, ans;
     clrscr();
     start:
     printf("enter the marks of Maths (out of 100) : ");
-    scanf("%d",&math);
+    scanf("%f",&math);
 	if(math > 100)
 	{
 		printf("enter valid marks again : ");
-	scanf("%d",&math);
+	    scanf("%f",&math);
 	}
 
     printf("enter the marks of English (out of 100) : ");
-    scanf("%d",&eng);
+    scanf("%f",&eng);
     if(eng > 100)
 	{
 		printf("enter valid marks again : ");
-	scanf("%d",&eng);
+	    scanf("%f",&eng);
 	}
     printf("enter tha marks of Science (out of 100) : ");
-    scanf("%d",&sc);
+	scanf("%f",&sc);
     if(sc > 100)
 	{
 		printf("enter valid marks again : ");
-	scanf("%d",&sc);
+	scanf("%f",&sc);
 	}
 
     ans = (math + eng + sc) / 3;
 	if(ans > 100)
 	{
-	    printf("there was an error getting the average marks,\nplease try again ");
+	clrscr();
+	    printf("there was an error getting the average marks,\nplease try again\n\ns ");
 	    goto start;
 
 	}
 
-    printf("the average marks are %d",ans);
+    printf("the average marks are %.2f",ans);
 
     getch();
 }
