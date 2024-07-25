@@ -4,13 +4,13 @@
 main()
 {
     clrscr();
-    int a, b, ans;
+    float a, b, ans;
     printf("Enter the first angle: ");
-    scanf("%d", a);
+    scanf("%f", a);
     printf("Enter the second angle: ");
-    scanf("%d", b);
+    scanf("%f", b);
     ans = 180 - a - b;
-    printf("The third angle is %d", ans);
+    printf("The third angle is %.2f", ans);
 
     getch();
 }
