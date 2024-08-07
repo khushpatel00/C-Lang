@@ -47,6 +47,13 @@ main()
 	{
 		bol("B and D are equal");
 	}
+	else                    //********** MAUT KA KHEL *********
+	{
+		if(
+
+
+		)
+	}
 
 
 
