@@ -10,13 +10,13 @@ main()
     scanf("%d",&a);
     printf("Enter Second Number: ");
     scanf("%d",&n);
-    if(a%2==0){
-	    while(a<=n){
-		printf("%d",a);
-		a+4;
-	    }
+        if(a%4==0){
+            while(a<=n){
+                printf("%d, ",a);
+                a = a + 4;
+            }
 
-    }
-    else{printf("\n\nEnter valid Year..");}
+        }
+        else{printf("\n\nEnter valid Year..");}
 	getch();
 }
