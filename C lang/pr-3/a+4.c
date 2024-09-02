@@ -11,7 +11,7 @@ main(){
         printf("%c",A);
         A+=4;
 
-    }while(A>'a' && 'z'<A);
+    }while(A>='a' && 'z'<A);
     getch();
     //return 0;
 
