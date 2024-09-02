@@ -17,4 +17,5 @@ main(){
     }
     printf("Total no. of digits : %d",i);
     getch();    
+    // return 0;
 }
