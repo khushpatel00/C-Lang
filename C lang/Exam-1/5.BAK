@@ -15,7 +15,7 @@ main(){
 
 	}
 	ans += last;
-	printf("the sum of first and last dsigit is %d",ans);
+	printf("the sum of first and last digit is %d",ans);
 
 	getch();
 

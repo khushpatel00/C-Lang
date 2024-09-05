@@ -2,7 +2,7 @@
 #include <conio.h>
 
 main(){
-	int n,ans,temp=0;
+	int n,ans = 1,temp=0;
 
 
 	clrscr();
