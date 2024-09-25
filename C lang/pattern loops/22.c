@@ -1,26 +1,19 @@
 #include <stdio.h>
-#include <conio.h>
-
 main(){
-        char i,j,n='A';
-
-        clrscr();
-
+        int i, j, s;
         
-        
+                for(i=1;i<=5;i++){
+                	for(s=5;s>i;s--){
+                		printf(" ");
+					}
+                        for(j=1;j<=i;j++){
+                                if(j%2==0) printf("-");
+                                else if(j%2==1) printf("|");
+                                
+                                
+                        }
+                        printf("\n");
 
-
-        for(i='A';i<='E';i++){
-                for(j='A';j<=i;j++){
-                        printf("%c ",n++);
-                        
                 }
-                // n++;
-                printf("\n");
-
-        }
-        
-
-        getch();
-        
-}
+      
+}       

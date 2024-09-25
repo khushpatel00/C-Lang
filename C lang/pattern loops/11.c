@@ -2,23 +2,28 @@
 #include <conio.h>
 
 main(){
-        int i,j;
+        int i,j,s;
 
-        // clrscr();
-// 5 4 3 2 1 
-// 4 3 2 1 
-// 3 2 1 
-// 2 1 
-// 1
-        for(i=5;i>=1;i--){
-                for(j=i;j>=1;j--){
-                        printf("%d",j);
+// ***** 
+//  **** 
+//   ***
+//    **
+//     *
+
+
+        clrscr();
+        for(i=1;i<=5;i++){
+                for(s=1;s<i;s++){
+                        printf(" ");
+                }
+                for(j=i;j<=5;j++){
+                        printf("*");
 
                 }
                 printf("\n");
         }
         
 
-        // getch();
+        getch();
         
 }
