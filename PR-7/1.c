@@ -24,7 +24,7 @@ void main()
             scanf("%d", &n1);
             printf("Enter The Second Number: ");
             scanf("%d", &n2);
-            sum();
+            sum(n1,n2);
             break;
 
         case 2: // minus
@@ -32,28 +32,28 @@ void main()
             scanf("%d", &n1);
             printf("Enter The Second Number: ");
             scanf("%d", &n2);
-            minus();
+            minus(n1,n2);
             break;
         case 3: // mul
             printf("Enter The First Number: ");
             scanf("%d", &n1);
             printf("Enter The Second Number: ");
             scanf("%d", &n2);
-            mul();
+            mul(n1,n2);
             break;
         case 4: // divide
             printf("Enter The First Number: ");
             scanf("%d", &n1);
             printf("Enter The Second Number: ");
             scanf("%d", &n2);
-            divide();
+            divide(n1,n2);
             break;
         case 5: // mod
             printf("Enter The First Number: ");
             scanf("%d", &n1);
             printf("Enter The Second Number: ");
             scanf("%d", &n2);
-            mod();
+            mod(n1,n2);
             break;
         case 0: // exit
             goto back;
