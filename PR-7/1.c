@@ -20,22 +20,39 @@ void main()
         switch (n)
         {
         case 1: // sum
-            
+            printf("Enter The First Number: ");
+            scanf("%d", &n1);
+            printf("Enter The Second Number: ");
+            scanf("%d", &n2);
             sum();
             break;
 
         case 2: // minus
-        
+            printf("Enter The First Number: ");
+            scanf("%d", &n1);
+            printf("Enter The Second Number: ");
+            scanf("%d", &n2);
             minus();
             break;
         case 3: // mul
-        
+            printf("Enter The First Number: ");
+            scanf("%d", &n1);
+            printf("Enter The Second Number: ");
+            scanf("%d", &n2);
             mul();
             break;
         case 4: // divide
+            printf("Enter The First Number: ");
+            scanf("%d", &n1);
+            printf("Enter The Second Number: ");
+            scanf("%d", &n2);
             divide();
             break;
         case 5: // mod
+            printf("Enter The First Number: ");
+            scanf("%d", &n1);
+            printf("Enter The Second Number: ");
+            scanf("%d", &n2);
             mod();
             break;
         case 0: // exit
