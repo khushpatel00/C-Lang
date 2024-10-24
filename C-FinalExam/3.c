@@ -1,5 +1,5 @@
 #include <stdio.h>
-main(){
+void main(){
     //sum of 2 matriices in 2d array
 
     int size,i,j;
