@@ -1,5 +1,5 @@
 #include <stdio.h>
-main(){
+void main(){
     char i,j,s;
   
     for(i='A';i<='E';i++){
