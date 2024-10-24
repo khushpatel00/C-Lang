@@ -1,5 +1,5 @@
 #include <stdio.h>
-main()
+void main()
 {
     int mark;
     printf("Enter your marks: ");
