@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "1Func.c"
 
-main(){
+void main(){
     int a,b;
 
     printf("Enter No. 1 : ");
