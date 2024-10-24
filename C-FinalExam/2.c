@@ -1,5 +1,5 @@
 #include <stdio.h>
-main(){
+void main(){
     float c,f;
     printf("Enter the Degree in Celsius : ");
     scanf("%f",&c);
